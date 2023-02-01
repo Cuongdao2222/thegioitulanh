@@ -136,7 +136,7 @@
                     </div>
                     <div class="hotline">
                         Gọi đặt mua:
-                        <span>0967 025 111</span>
+                        <span>092 470 0737</span>
                     </div>
                     <!-- <div class="account">
                         <i class="fa fa-user"></i>
@@ -280,7 +280,7 @@
                 </div>
               
             </div>
-            <a href="tel:0967025111" class="icon-call transition"><img src="/template/default/images/icon_goi-ngay_pc.png?v=1.1.1" style="max-width:122px;" alt=""></a>  
+            <a href="tel:0924700737" class="icon-call transition"><img src="/template/default/images/icon_goi-ngay_pc.png?v=1.1.1" style="max-width:122px;" alt=""></a>  
         </div>
         <div id="toTop" title="Lên đầu trang" class="transition"></div>
 
