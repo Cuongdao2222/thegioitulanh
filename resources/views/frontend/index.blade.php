@@ -88,7 +88,7 @@
         <div class="ah-item {{ $i==2?'end':'' }}">
             <a href="{{ route('details', $post[$i]['link']) }}"><img src="{{ asset($post[$i]['image']) }}" alt="{{ $post[$i]['title'] }}"/></a>
             <h5 class="format txt_12 txt_n">
-                <p class="title"><a href="{{ route('details', $post[$i]['link']) }}">{{ $post[0]['title'] }}</a></p>
+                <p class="title"><a href="{{ route('details', $post[$i]['link']) }}">{{ $post[$i]['title'] }}</a></p>
             </h5>
         </div>
         @endfor
