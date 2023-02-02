@@ -290,11 +290,7 @@
         <script defer src="/template/default/script/init.js?v=2.2.21"></script>
         <!--//end: plugin-->
         <!---global-->
-        <script>
-            function open_oauth(service){
-            window.open("/login_oauth.php?service="+service+"&return_url=https://dienmayabc.com/", "Login OAuth", "width=600, height=500");
-            }
-        </script>
+        
         <script>
             $(document).ready(function(){ 
             $("input.p_check").click(function(){
@@ -307,12 +303,7 @@
             });
         </script>
         <input type="hidden" id="product_compare_list" value="" />
-        <div id="compare_area_home">
-            <span>So sánh sản phẩm</span>
-            <div class="compare_area">
-                <a href="javascript:;" class="btn_compare bg button" onclick="compare_product('https://dienmayabc.com')" style="display:none;">So sánh</a>
-            </div>
-        </div>
+        
         <!---//script homepage-->
         <script>
             $(document).ready(function(){
