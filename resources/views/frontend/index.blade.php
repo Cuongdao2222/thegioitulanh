@@ -30,7 +30,7 @@
 
 <ul class="ul bxslider bxhome fomart">
     <li>
-        <a href="/ad.php?id=134" target='_blank' rel='nofollow'><img border=0 src="https://thegioitulanh.vn/wp-content/uploads/2021/04/Inkedbanner-2021_LI.jpg" alt="" /></a>
+        <a href="https://thegioitulanh.vn/tu-lanh-hitachi" target='_blank' rel='nofollow'><img border=0 src="https://thegioitulanh.vn/wp-content/uploads/2021/04/Inkedbanner-2021_LI.jpg" alt="" /></a>
     </li>
    
    <!--  <li><a href="/ad.php?id=130" target='_blank' rel='nofollow'><img border=0 src="/media/banner/21_Novf118303817153f4a0617a49ca2c09acd.png" alt="mua tủ lạnh tại kho" /></a></li>
