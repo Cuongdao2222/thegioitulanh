@@ -205,21 +205,27 @@
 
                             <?php 
                                 $listmenu1 = App\Models\groupProduct::where('parent_id', $val->id)->get();
+
+
                             ?>
 
-                            @if($listmenu1->count()>0)
-                            @foreach($listmenu1 as $val1)
                             <ul class="child">
+
+                                @if($listmenu1->count()>0)
+                                @foreach($listmenu1 as $val1)
                                 <li>
                                     <ul class="group">
-                                        <li class="name">{{ $val1->name }}</li>
+                                        <li class="name"><a href="{{ route('details', $val1->link) }}">{{ $val1->name }}</a></li>
                                         
                                     </ul>
-                                    <span id="att1"><i class="fa fa-spinner fa-spin"></i></span>
+                                    
                                 </li>
+
+                                @endforeach
+                                @endif
                             </ul>
-                            @endforeach
-                            @endif
+
+                            
                         </li>
                         @endforeach
                         @endif
