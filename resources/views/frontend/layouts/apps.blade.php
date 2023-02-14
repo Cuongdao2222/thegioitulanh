@@ -194,7 +194,7 @@
                     <div class="icon-mobile-bar"><button><i class="fa fa-bars" aria-hidden="true"></i></button></div>
                     <ul>
                         <?php 
-                            $listmenu = App\Models\groupProduct::where('parent_id', 35)->get();
+                            $listmenu = App\Models\groupProduct::where('parent_id', 35)->where('active', 1)->get();
                         ?>
                         @if($listmenu->count()>0)
                         @foreach($listmenu as $val)
@@ -204,7 +204,7 @@
                             </a>
 
                             <?php 
-                                $listmenu1 = App\Models\groupProduct::where('parent_id', $val->id)->get();
+                                $listmenu1 = App\Models\groupProduct::where('parent_id', $val->id)->where('active', 1)->get();
 
 
                             ?>
