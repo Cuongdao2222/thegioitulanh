@@ -62,7 +62,18 @@
                 <p class="name"><a href="{{ route('details', $datas->Link) }}">{{ $datas->Name }}</a></p>
             </h3>
             <p class="price">{{ @number_format($datas->Price , 0, ',', '.')}} <u>đ</u> 
-                <span class="percent">-36%</span>
+
+                @if($datas->manuPrice>0)
+
+                <?php 
+
+                    $per = floatval(((intval($datas->manuPrice) - intval($datas->Price))/intval($datas->manuPrice))*100);
+
+                ?>
+
+                <span class="percent">-{{ $per }}%</span>
+
+                @endif
             </p>
             <!-- <p class="mprice">104.900.000 <u>đ</u></p> -->
             <p class="star"><i class="vstar"><i class="star-0"></i></i> (0 nhận xét)</p>
