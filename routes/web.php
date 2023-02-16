@@ -90,7 +90,7 @@ Route::get('logout-Fe', 'AjaxController@logout')->name('logout-Fe');
 
 Route::get('sitemap.xml', 'sitemapController@index');
 
-Route::get('sitemap_brands.xml', 'sitemapController@brand');
+Route::get('sitemap_brand.xml', 'sitemapController@brand');
 
 Route::get('sitemap_pc.xml', 'sitemapController@sitemapChildProduct');
 
