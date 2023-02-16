@@ -92,7 +92,7 @@ Route::get('sitemap.xml', 'sitemapController@index');
 
 Route::get('sitemap_brand.xml', 'sitemapController@brand');
 
-Route::get('sitemap_pc.xml', 'sitemapController@brand');
+Route::get('sitemap_pc.xml', 'sitemapController@sitemapChildProduct');
 
 
 Route::get('update-order-deal', 'dealController@dealOrder')->name('order-deal');
