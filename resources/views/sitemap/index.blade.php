@@ -3,7 +3,7 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <sitemap>
-        <loc>https://thegioitulanh.vn/sitemap_brand.xml</loc>
+        <loc>https://thegioitulanh.vn/sitemap_brands.xml</loc>
         <lastmod>{{ Carbon\Carbon::now()->format('Y-m-d') }}</lastmod>
     </sitemap>
     <sitemap>
