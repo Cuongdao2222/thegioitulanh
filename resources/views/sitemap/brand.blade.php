@@ -3,11 +3,10 @@
 		<loc>https://thegioitulanh.vn/</loc>
 	</url>
 
-
-	@if(isset($product))
-    @foreach($product as $products)
+	@if(isset($data))
+    @foreach($data as $datas)
     <url>
-		<loc>{{ route('details',$products->Link) }}</loc>
+		<loc>{{ route('details',$datas->link) }}</loc>
 	</url>	
 	@endforeach    
     @endif
